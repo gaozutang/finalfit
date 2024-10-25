@@ -4,8 +4,8 @@ models = {
   "mu_fiducial":"-P HiggsAnalysis.CombinedLimit.PhysicsModel:multiSignalModel \
 --PO \"map=.*/ggH_in.*:r_higgs_in[1,0,2]\" \
 --PO \"map=.*/ttH_in.*:r_higgs_in[1,0,2]\" \
---PO \"map=.*/qqH_in.*:r_higgs_in[1,0,2]\" \
---PO \"map=.*/vH_in.*:r_higgs_in[1,0,2]\"",
+--PO \"map=.*/VBF_in.*:r_higgs_in[1,0,2]\" \
+--PO \"map=.*/VH_in.*:r_higgs_in[1,0,2]\"",
 
   "mu_differential":"-P HiggsAnalysis.CombinedLimit.PhysicsModel:multiSignalModel \
 --PO \"map=.*/ggH_in_0jets.*:r_higgs_in_0jets[1,0,2]\" \
